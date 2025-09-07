@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <div class="bg">
+         <div class="bg1">
+            <input type="text" class="result" readonly id="displays">
+            <div class="button">
+                <input type="button" value="C" onclick="clearDisplay()">
+                <input type="button" value="/" onclick="addDivide()">
+                <input type="button" value="*" onclick="addMultiply()">
+                <input type="button" value="DE" onclick="deleteLast() ">
+                <input type="button" value="7" onclick="add7()">
+                <input type="button" value="8" onclick="add8()">
+                <input type="button" value="9" onclick="add9()">
+                <input type="button" value="-" onclick="addMinus()">
+                <input type="button" value="4" onclick="add4()">
+                <input type="button" value="5" onclick="add5()">
+                <input type="button" value="6" onclick="add6()">
+                <input type="button" value="+" onclick="addPlus()">
+                <input type="button" value="1" onclick="add1()">
+                <input type="button" value="2" onclick="add2()">
+                <input type="button" value="3" onclick="add3()">
+                <input type="button" value="=" onclick="calculate()">
+                <input type="button" value="%" onclick="Percentage()">
+                <input type="button" value="0" onclick="add0()">
+                <input type="button" value="00" onclick="add00()">
+                <input type="button" value=" ." onclick="addDot()">
+            </div>
+         </div>
+    </div>
+<script src="calculator.js"></script>
+</body>
+</html>
